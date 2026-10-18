@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как правильно фотографировать и сканировать документы — Feldbusch &amp; Partner</title>
+<meta name="description" content="Пошаговая инструкция от Feldbusch & Partner: как правильно сфотографировать или отсканировать документы для быстрой и безошибочной обработки. Правила съёмки, инструкции для iPhone и Android, правила освещения.">
+<meta name="keywords" content="сканирование документов, фото документов, Feldbusch Partner, финансовый консалтинг, инструкция по сканированию">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Как правильно фотографировать и сканировать документы">
+<meta property="og:description" content="Пошаговая инструкция от Feldbusch & Partner: правила съёмки документов, сканирование на iPhone и Android, правила освещения.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue-dark:#304362;
+    --blue-light:#5D83C3;
+    --white:#FFFFFF;
+    --accent:#C5AB20;
+    --gray-dark:#252525;
+    --gray-bg:#F5F6F8;
+    --gray-text:#55606f;
+    --radius:14px;
+    --shadow:0 10px 30px rgba(48,67,98,0.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Roboto', Arial, sans-serif;
+    color:var(--gray-dark);
+    background:var(--white);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  .container{
+    width:100%;
+    max-width:1140px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+  /* ---------- HEADER ---------- */
+  header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(255,255,255,0.97);
+    backdrop-filter:saturate(180%) blur(8px);
+    border-bottom:1px solid #e7eaef;
+  }
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 20px;
+  }
+  .logo img{height:40px;width:auto;}
+  nav ul{
+    list-style:none;
+    display:flex;
+    gap:28px;
+  }
+  nav a{
+    font-size:14px;
+    font-weight:500;
+    color:var(--blue-dark);
+    letter-spacing:.2px;
+    transition:color .2s;
+    white-space:nowrap;
+  }
+  nav a:hover{color:var(--blue-light);}
+  .nav-toggle{
+    display:none;
+    flex-direction:column;
+    gap:5px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    padding:6px;
+  }
+  .nav-toggle span{
+    width:24px;height:2px;background:var(--blue-dark);border-radius:2px;
+  }
+  /* ---------- HERO ---------- */
+  .hero{
+    background:linear-gradient(160deg, var(--blue-dark) 0%, #263551 100%);
+    color:var(--white);
+    padding:72px 0 88px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;
+    right:-120px;top:-120px;
+    width:420px;height:420px;
+    border-radius:50%;
+    background:radial-gradient(circle, rgba(93,131,195,0.35) 0%, rgba(93,131,195,0) 70%);
+  }
+  .hero-inner{position:relative;z-index:1;max-width:760px;}
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1.4px;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:18px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:28px;height:2px;
+    background:var(--accent);
+    display:inline-block;
+  }
+  h1{
+    font-size:clamp(28px,4.2vw,44px);
+    font-weight:900;
+    line-height:1.18;
+    margin-bottom:20px;
+  }
+  .hero p.lead{
+    font-size:17px;
+    color:#dbe2ef;
+    max-width:620px;
+  }
+  /* ---------- SECTIONS ---------- */
+  section{
+    padding:72px 0;
+  }
+  section.alt{background:var(--gray-bg);}
+  .section-head{
+    max-width:720px;
+    margin:0 auto 40px;
+    text-align:left;
+  }
+  .section-head.center{text-align:center;margin-left:auto;margin-right:auto;}
+  .tag{
+    display:inline-block;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+    color:var(--blue-light);
+    background:rgba(93,131,195,0.12);
+    padding:6px 12px;
+    border-radius:20px;
+    margin-bottom:14px;
+  }
+  h2{
+    font-size:clamp(24px,3vw,32px);
+    font-weight:700;
+    color:var(--blue-dark);
+    margin-bottom:14px;
+    position:relative;
+  }
+  h2 .underline{
+    display:block;
+    width:52px;height:4px;
+    background:var(--accent);
+    border-radius:4px;
+    margin-top:14px;
+  }
+  .section-text{
+    color:var(--gray-text);
+    font-size:15.5px;
+    max-width:680px;
+  }
+  .two-col{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:48px;
+    align-items:center;
+  }
+  .two-col.reverse .col-text{order:2;}
+  .two-col.reverse .col-media{order:1;}
+  .col-media img{
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    border:1px solid #e7eaef;
+  }
+  /* ---------- CHECK LISTS ---------- */
+  ul.checklist{list-style:none;margin-top:22px;}
+  ul.checklist li{
+    display:flex;
+    gap:12px;
+    padding:11px 0;
+    border-bottom:1px solid #e7eaef;
+    font-size:15px;
+    color:#3a4452;
+  }
+  ul.checklist li:last-child{border-bottom:none;}
+  ul.checklist.good li::before{
+    content:"✓";
+    flex:none;
+    width:24px;height:24px;
+    border-radius:50%;
+    background:var(--blue-light);
+    color:var(--white);
+    font-size:13px;
+    font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+    margin-top:1px;
+  }
+  ul.checklist.bad li::before{
+    content:"✕";
+    flex:none;
+    width:24px;height:24px;
+    border-radius:50%;
+    background:#c0392b;
+    color:var(--white);
+    font-size:12px;
+    font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+    margin-top:1px;
+  }
+  /* ---------- NOTE CARD ---------- */
+  .note{
+    margin-top:28px;
+    background:var(--white);
+    border:1px solid #e7eaef;
+    border-left:4px solid var(--accent);
+    border-radius:10px;
+    padding:18px 20px;
+    font-size:14.5px;
+    color:#44505f;
+  }
+  .note strong{color:var(--blue-dark);}
+  .note + .note{margin-top:14px;}
+  /* ---------- STEPS ---------- */
+  .steps-intro{
+    max-width:720px;
+    color:var(--gray-text);
+    margin-bottom:34px;
+    font-size:15.5px;
+  }
+  .steps-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:18px;
+    margin-bottom:34px;
+  }
+  .step-card{
+    background:var(--white);
+    border:1px solid #e7eaef;
+    border-radius:var(--radius);
+    padding:22px 16px;
+    box-shadow:var(--shadow);
+  }
+  .step-num{
+    width:34px;height:34px;
+    border-radius:50%;
+    background:var(--blue-dark);
+    color:var(--accent);
+    font-weight:700;
+    font-size:15px;
+    display:flex;align-items:center;justify-content:center;
+    margin-bottom:12px;
+  }
+  .step-card h4{
+    font-size:14.5px;
+    color:var(--blue-dark);
+    margin-bottom:6px;
+    font-weight:700;
+  }
+  .step-card p{
+    font-size:13px;
+    color:var(--gray-text);
+    line-height:1.5;
+  }
+  .steps-media{margin-top:10px;}
+  .steps-media img{
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    border:1px solid #e7eaef;
+  }
+  /* ---------- LIGHTING SECTION ---------- */
+  .lighting-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+    margin-top:36px;
+  }
+  .lighting-card{
+    background:var(--white);
+    border-radius:var(--radius);
+    border:1px solid #e7eaef;
+    box-shadow:var(--shadow);
+    padding:26px 24px;
+  }
+  .lighting-card h3{
+    font-size:16px;
+    color:var(--blue-dark);
+    margin-bottom:14px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .badge-ok, .badge-bad{
+    width:22px;height:22px;border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;
+    font-size:12px;font-weight:700;color:#fff;flex:none;
+  }
+  .badge-ok{background:var(--blue-light);}
+  .badge-bad{background:#c0392b;}
+  .lighting-card ul{list-style:none;}
+  .lighting-card ul li{
+    font-size:14.5px;
+    color:#3a4452;
+    padding:8px 0;
+    border-bottom:1px solid #eef0f3;
+  }
+  .lighting-card ul li:last-child{border-bottom:none;}
+  .lighting-card ul li strong{color:var(--blue-dark);}
+  .error-item{margin-bottom:18px;}
+  .error-item:last-child{margin-bottom:0;}
+  .error-item .title{
+    font-size:14.5px;font-weight:700;color:var(--gray-dark);margin-bottom:6px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .error-item p{font-size:13.5px;color:var(--gray-text);margin-bottom:4px;}
+  .error-item p strong{color:var(--blue-dark);}
+  .lighting-media{margin-top:36px;}
+  .lighting-media img{
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    border:1px solid #e7eaef;
+  }
+  /* ---------- CTA ---------- */
+  .cta{
+    background:var(--blue-dark);
+    color:var(--white);
+    text-align:center;
+    padding:64px 0;
+  }
+  .cta h2{color:var(--white);}
+  .cta .section-text{color:#cfd8e8;margin:0 auto 26px;}
+  .btn{
+    display:inline-block;
+    background:var(--accent);
+    color:var(--blue-dark);
+    font-weight:700;
+    font-size:14.5px;
+    padding:14px 32px;
+    border-radius:8px;
+    letter-spacing:.3px;
+    transition:transform .2s, box-shadow .2s;
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(0,0,0,0.2);}
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--gray-dark);
+    color:#c7cdd6;
+    padding:48px 0 28px;
+  }
+  .footer-inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:32px;
+    margin-bottom:34px;
+  }
+  .footer-logo{
+    background:var(--white);
+    border-radius:10px;
+    padding:14px 20px;
+    display:inline-block;
+  }
+  .footer-logo img{height:34px;width:auto;}
+  .footer-col h5{
+    color:var(--white);
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:14px;
+  }
+  .footer-col ul{list-style:none;}
+  .footer-col li{margin-bottom:9px;}
+  .footer-col a{font-size:14px;color:#aeb6c2;transition:color .2s;}
+  .footer-col a:hover{color:var(--accent);}
+  .footer-bottom{
+    border-top:1px solid #3a3a3a;
+    padding-top:22px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    font-size:13px;
+    color:#8b919a;
+  }
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:900px){
+    .two-col{grid-template-columns:1fr;gap:28px;}
+    .two-col.reverse .col-text{order:1;}
+    .two-col.reverse .col-media{order:2;}
+    .steps-grid{grid-template-columns:repeat(3,1fr);}
+    .lighting-grid{grid-template-columns:1fr;}
+  }
+  @media (max-width:640px){
+    nav{
+      position:absolute;
+      top:100%;left:0;right:0;
+      background:var(--white);
+      border-bottom:1px solid #e7eaef;
+      display:none;
+      padding:10px 20px 18px;
+    }
+    nav.open{display:block;}
+    nav ul{flex-direction:column;gap:4px;}
+    nav a{display:block;padding:10px 0;border-bottom:1px solid #f0f1f3;}
+    .nav-toggle{display:flex;}
+    .hero{padding:52px 0 64px;}
+    section{padding:52px 0;}
+    .steps-grid{grid-template-columns:1fr 1fr;}
+    .footer-inner{flex-direction:column;}
+  }
+  @media (max-width:420px){
+    .steps-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner container">
+    <a href="#top" class="logo">
+      <img src="images/logo_feldbusch_cropped.png" alt="Feldbusch & Partner — Finanzberatung">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#trebovaniya">Требования</a></li>
+        <li><a href="#oshibki">Частые ошибки</a></li>
+        <li><a href="#iphone">iPhone</a></li>
+        <li><a href="#android">Android</a></li>
+        <li><a href="#osveshchenie">Освещение</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="eyebrow">Инструкция Feldbusch &amp; Partner</span>
+      <h1>Как правильно фотографировать и сканировать документы</h1>
+      <p class="lead">Эта инструкция поможет вам правильно сфотографировать или отсканировать документы — паспорт, свидетельства, справки о регистрации и другие, — чтобы наши специалисты могли быстро и без задержек их обработать.</p>
+    </div>
+  </section>
+
+  <!-- ОБЩИЕ ТРЕБОВАНИЯ -->
+  <section id="trebovaniya">
+    <div class="container two-col">
+      <div class="col-text">
+        <span class="tag">Шаг 1</span>
+        <h2>Общие требования<span class="underline"></span></h2>
+        <p class="section-text">Соблюдение этих правил — залог того, что документ будет принят с первого раза и не потребует повторной съёмки.</p>
+        <ul class="checklist good">
+          <li>Документ должен лежать на ровной однотонной поверхности (белый или тёмный однотонный стол, лист бумаги).</li>
+          <li>Снимайте при дневном свете или хорошем искусственном освещении, без резких теней.</li>
+          <li>Камера должна находиться строго сверху, параллельно документу — без перспективных искажений.</li>
+          <li>В кадре — только документ, полностью, включая все края и углы.</li>
+          <li>Текст должен быть чётким и читаемым, без размытия.</li>
+          <li>Если документ состоит из нескольких страниц — фотографируйте каждую страницу отдельно.</li>
+          <li>Паспорт: снимайте разворот с фото и данными полностью, без обрезки.</li>
+        </ul>
+      </div>
+      <div class="col-media">
+        <img src="images/block2_correct.jpg" alt="Как правильно фотографировать документы — положение, освещение, фон, качество" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ЧЕГО НЕ ДОЛЖНО БЫТЬ -->
+  <section class="alt">
+    <div class="container two-col reverse">
+      <div class="col-media">
+        <img src="images/block1_general.jpg" alt="Примеры правильного выравнивания и освещения при фотографировании паспорта" loading="lazy">
+      </div>
+      <div class="col-text">
+        <span class="tag">Шаг 2</span>
+        <h2>Чего не должно быть на фото<span class="underline"></span></h2>
+        <p class="section-text">Проверьте кадр перед отправкой — наличие любого из перечисленного ниже может стать причиной повторной съёмки.</p>
+        <ul class="checklist bad">
+          <li>Посторонних предметов в кадре: рук, пальцев, телефона, ручки, чашки и т. д.</li>
+          <li>Ножек стола, краёв мебели, пола, стен — ничего, кроме поверхности под документом и самого документа.</li>
+          <li>Бликов от вспышки или света на поверхности документа.</li>
+          <li>Наклонного угла съёмки или перспективных искажений — документ должен выглядеть прямоугольным, без «заваленных» краёв.</li>
+          <li>Обрезанных краёв или углов документа.</li>
+          <li>Тени от руки, телефона или головы на документе.</li>
+          <li>Размытого или нечёткого изображения.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- КАК НЕПРАВИЛЬНО -->
+  <section id="oshibki">
+    <div class="container two-col">
+      <div class="col-text">
+        <span class="tag">Частые ошибки</span>
+        <h2>Как неправильно<span class="underline"></span></h2>
+        <ul class="checklist bad">
+          <li>Документ сфотографирован под углом или с искажением.</li>
+          <li>В кадре видна часть стола, ноги стола, руки или другие предметы.</li>
+          <li>Присутствуют тени или блики, закрывающие часть текста.</li>
+          <li>Изображение размытое, часть текста нечитаема.</li>
+          <li>Часть документа обрезана или не попала в кадр.</li>
+        </ul>
+        <div class="note">
+          <strong>Совет эксперта.</strong> Если у вас есть сканер — предпочтительно использовать именно сканирование (формат PDF или JPG, разрешение не ниже 200 dpi). Если сканера нет — следуйте правилам фотосъёмки выше.
+        </div>
+        <div class="note">
+          <strong>Важно.</strong> Если после отправки документа часть текста будет не видна или фото получится нечётким, мы можем попросить переснять его. Чтобы избежать этого, пожалуйста, проверьте фото перед отправкой.
+        </div>
+      </div>
+      <div class="col-media">
+        <img src="images/block3_id_card.jpg" alt="Пошаговый пример правильного сканирования удостоверения личности" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- IPHONE -->
+  <section class="alt" id="iphone">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Часть 1</span>
+        <h2>Как сделать скан документа на iPhone<span class="underline"></span></h2>
+      </div>
+      <p class="steps-intro">В экосистеме iOS есть встроенный и очень мощный инструмент для сканирования, поэтому сторонние приложения скачивать не обязательно.</p>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h4>Откройте «Заметки»</h4>
+          <p>Создайте новую заметку или откройте уже существующую, куда хотите прикрепить документ.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h4>Запустите сканер</h4>
+          <p>Нажмите на иконку камеры в панели инструментов над клавиатурой и выберите «Сканировать документы».</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h4>Наведите камеру</h4>
+          <p>Положите документ на контрастную ровную поверхность. Камера сама определит границы и сделает снимок — либо нажмите затвор вручную.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h4>Отрегулируйте рамку</h4>
+          <p>Перетяните уголки рамки пальцем, чтобы захватить только нужную область, и нажмите «Оставить снимок».</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">5</div>
+          <h4>Сохраните и отправьте</h4>
+          <p>Нажмите «Сохранить», затем поделитесь сканом в «Файлы» или «Фото» в нужном разрешении.</p>
+        </div>
+      </div>
+      <div class="steps-media">
+        <img src="images/block4_iphone.jpg" alt="Пошаговая инструкция сканирования документа на iPhone через приложение Заметки" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ANDROID -->
+  <section id="android">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Часть 2</span>
+        <h2>Как сделать скан документа на Android<span class="underline"></span></h2>
+      </div>
+      <p class="steps-intro">На устройствах Android самым удобным, популярным и качественным инструментом является приложение Google Диск (Google Drive), которое установлено почти на каждом смартфоне.</p>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h4>Откройте Google Диск</h4>
+          <p>Убедитесь, что вы вошли в свой аккаунт Google.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h4>Запустите сканирование</h4>
+          <p>В правом нижнем углу нажмите «+» (Создать), затем выберите иконку «Сканировать».</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h4>Сделайте снимок</h4>
+          <p>Наведите камеру на документ при хорошем освещении, чтобы избежать теней, и нажмите кнопку затвора.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h4>Отредактируйте</h4>
+          <p>Нажмите «Обрезать», чтобы скорректировать границы, и выберите режим «Цвет» для контраста текста.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">5</div>
+          <h4>Сохраните результат</h4>
+          <p>Нажмите «Готово», затем «Сохранить» — документ сохранится на Google Диск в формате PDF.</p>
+        </div>
+      </div>
+      <div class="steps-media">
+        <img src="images/block5_android.jpg" alt="Пошаговая инструкция сканирования документа на Android через Google Диск" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ОСВЕЩЕНИЕ -->
+  <section class="alt" id="osveshchenie">
+    <div class="container">
+      <div class="section-head center">
+        <span class="tag">Фото для документов дома</span>
+        <h2>Правила освещения<span class="underline" style="margin-left:auto;margin-right:auto;"></span></h2>
+        <p class="section-text" style="margin:0 auto;">Чтобы ваша фотография для документов прошла все официальные требования (например, для паспорта или визы), важно правильно настроить свет и избежать типичных ошибок.</p>
+      </div>
+
+      <div class="lighting-grid">
+        <div class="lighting-card">
+          <h3><span class="badge-ok">✓</span> Правильный вариант</h3>
+          <ul>
+            <li><strong>Освещение:</strong> равномерное и мягкое. Лицо освещено с обеих сторон одинаково, без резких переходов.</li>
+            <li><strong>Фон:</strong> светлый, чистый и однородный (идеально белый или светло-серый).</li>
+            <li><strong>Тени:</strong> на лице и на фоне за вами полностью отсутствуют.</li>
+          </ul>
+        </div>
+        <div class="lighting-card">
+          <h3><span class="badge-bad">✕</span> Ошибки, которых следует избегать</h3>
+          <div class="error-item">
+            <div class="title">Ошибка №1. Неравномерное освещение</div>
+            <p><strong>В чём проблема:</strong> свет падает только с одной стороны — одна щека и половина лица получаются в тени.</p>
+            <p><strong>Как исправить:</strong> используйте два источника света по бокам или встаньте лицом к большому окну.</p>
+          </div>
+          <div class="error-item">
+            <div class="title">Ошибка №2. Резкая тень на стене</div>
+            <p><strong>В чём проблема:</strong> источник света слишком близко или сбоку — на фоне чётко видна ваша тень.</p>
+            <p><strong>Как исправить:</strong> отойдите от стены хотя бы на 50–100 см, чтобы тень падала далеко назад.</p>
+          </div>
+          <div class="error-item">
+            <div class="title">Ошибка №3. Глубокие тени на лице</div>
+            <p><strong>В чём проблема:</strong> свет падает строго сверху или сзади — тёмные круги под глазами, тень под носом.</p>
+            <p><strong>Как исправить:</strong> уберите верхний прямой свет, источник должен быть на уровне лица, напротив глаз.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lighting-media">
+        <img src="images/block6_lighting.jpg" alt="Правила освещения для фото на документы: правильный и неправильные варианты" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Остались вопросы по оформлению документов?</h2>
+      <p class="section-text">Специалисты Feldbusch &amp; Partner готовы проконсультировать вас на каждом этапе — от подготовки документов до финального решения.</p>
+      <a href="#top" class="btn">Связаться с нами</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="images/logo_feldbusch_cropped.png" alt="Feldbusch & Partner">
+      </div>
+      <div class="footer-col">
+        <h5>Разделы</h5>
+        <ul>
+          <li><a href="#trebovaniya">Общие требования</a></li>
+          <li><a href="#oshibki">Частые ошибки</a></li>
+          <li><a href="#iphone">Сканирование на iPhone</a></li>
+          <li><a href="#android">Сканирование на Android</a></li>
+          <li><a href="#osveshchenie">Правила освещения</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Feldbusch &amp; Partner</h5>
+        <ul>
+          <li><a href="#">Финансовый консалтинг</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Feldbusch &amp; Partner. Все права защищены.</span>
+      <span>Несанкционированное копирование материалов запрещено.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+  navToggle.addEventListener('click', function(){
+    mainNav.classList.toggle('open');
+  });
+  document.querySelectorAll('nav a').forEach(function(link){
+    link.addEventListener('click', function(){
+      mainNav.classList.remove('open');
+    });
+  });
+</script>
+
+</body>
+</html>
